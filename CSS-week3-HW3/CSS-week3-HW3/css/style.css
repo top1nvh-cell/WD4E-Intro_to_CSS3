@@ -11,6 +11,9 @@ nav{
     background-color:#A9A9A9;
     display:inline-block;
     width:80%;
+    padding:15px;
+    border-radius:10px;
+    border:2px solid #666666;
 }
 nav img{
     width:10%;
@@ -52,4 +55,34 @@ p{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
+}
+img{
+    border:3px solid darkblue;
+    padding:5px;
+    border-radius:10px;
+}
+/* Hide the Skip link */
+a:first-child{
+    position: absolute;
+    left: -999px;
+}
+
+/* Show the Skip link when focused */
+a:first-child:focus{
+    left: 20px;
+    top: 20px;
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid black;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.grid img:nth-child(even){
+    border-radius: 50%;
+}
+
+.grid img:nth-child(odd){
+    border: 4px solid green;
 }
