@@ -1,4 +1,109 @@
+/* ===========================
+   BODY
+=========================== */
 body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    background:#f4f4f4;
+    color:#222;
 }
+
+/* ===========================
+   HEADER
+=========================== */
+header{
+    background:#004080;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+nav{
+    background:#87CEEB;
+    padding:15px;
+}
+
+nav a{
+    color:#000080;
+    font-weight:bold;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+nav a:hover{
+    color:red;
+}
+
+/* ===========================
+   MAIN
+=========================== */
+main{
+    background:white;
+    font-size:20px;
+    padding:20px;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* ===========================
+   LIST ITEMS
+=========================== */
+li{
+    display:inline-block;
+    width:180px;
+    margin:5px;
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+h1{
+    text-align:center;
+    font-size:42px;
+    color:#FFD700;
+}
+
+h2{
+    color:#004080;
+}
+
+/* ===========================
+   PARAGRAPHS
+=========================== */
+p{
+    line-height:1.7;
+}
+
+/* ===========================
+   IMAGES
+=========================== */
+img{
+    border:3px solid #444;
+    border-radius:8px;
+    margin:10px;
+}
+
+/* ===========================
+   LINKS
+=========================== */
+a{
+    transition:0.3s;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
